@@ -84,6 +84,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
           href={`${process.env.NEXT_PUBLIC_HOSTNAME}/near/widget/NearOrg.HomePage`}
           key="canonical"
         />
+        <link rel="manifest" href="manifest.json" />
       </Head>
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
